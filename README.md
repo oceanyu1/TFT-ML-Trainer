@@ -1,7 +1,7 @@
-TFT ML Service:
+# TFT ML Service
 A Python microservice that uses K-Means Clustering to classify Teamfight Tactics (TFT) players into behavioral archetypes (e.g., "Bill Gates," "Hyper Roll"). This service powers the machine learning inference for the TFT Insight platform.
 
-Scripts Overview
+# Scripts Overview
 1. collect_data.py (The ETL Pipeline)
 This script builds the dataset required for training.
 
@@ -22,7 +22,7 @@ Trains a K-Means clustering model (k=5) using Scikit-Learn.
 
 Exports the trained model (kmeans_model.pkl) and scaler (scaler.pkl) for use by the API.
 
-Quick Start
+# Quick Start
 1. Setup Environment
 
 # Create virtual environment
