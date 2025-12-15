@@ -1,0 +1,10 @@
+.env
+*.csv
+extracting_puuids.py
+*.pkl
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
